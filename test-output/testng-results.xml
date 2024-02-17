@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-16T19:40:02 PST" name="Suite" finished-at="2024-02-16T19:41:16 PST" duration-ms="73516">
+    <groups>
+    </groups>
+    <test started-at="2024-02-16T19:40:02 PST" name="Test" finished-at="2024-02-16T19:41:16 PST" duration-ms="73516">
+      <class name="com.tutorialsninja.tests.ClassC">
+        <test-method signature="methodCTwo()[pri:2, instance:com.tutorialsninja.tests.ClassC@776aec5c]" started-at="2024-02-16T19:40:03 PST" name="methodCTwo" finished-at="2024-02-16T19:40:03 PST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodCTwo -->
+      </class> <!-- com.tutorialsninja.tests.ClassC -->
+      <class name="com.tutorialsninja.tests.Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.tutorialsninja.tests.Login@557caf28]" started-at="2024-02-16T19:40:03 PST" name="setup" finished-at="2024-02-16T19:40:19 PST" duration-ms="15930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsninja.tests.Login@557caf28]" started-at="2024-02-16T19:40:19 PST" name="verifyLoginWithValidCredentials" finished-at="2024-02-16T19:40:22 PST" duration-ms="2959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shailaja.sireesh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.tests.Login@557caf28]" started-at="2024-02-16T19:40:22 PST" name="tearDown" finished-at="2024-02-16T19:40:22 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.tutorialsninja.tests.Login@557caf28]" started-at="2024-02-16T19:40:22 PST" name="setup" finished-at="2024-02-16T19:40:45 PST" duration-ms="23340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidValidCredentials()[pri:2, instance:com.tutorialsninja.tests.Login@557caf28]" started-at="2024-02-16T19:40:45 PST" name="verifyLoginWithInvalidValidCredentials" finished-at="2024-02-16T19:40:47 PST" duration-ms="1877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.tests.Login@557caf28]" started-at="2024-02-16T19:40:47 PST" name="tearDown" finished-at="2024-02-16T19:40:47 PST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.tutorialsninja.tests.Login@557caf28]" started-at="2024-02-16T19:40:47 PST" name="setup" finished-at="2024-02-16T19:40:50 PST" duration-ms="2477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitle()[pri:3, instance:com.tutorialsninja.tests.Login@557caf28]" started-at="2024-02-16T19:40:50 PST" name="verifyTitle" finished-at="2024-02-16T19:41:13 PST" duration-ms="22956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.tests.Login@557caf28]" started-at="2024-02-16T19:41:13 PST" name="tearDown" finished-at="2024-02-16T19:41:13 PST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialsninja.tests.Login -->
+      <class name="com.tutorialsninja.tests.ClassB">
+        <test-method signature="methodBOne()[pri:1, instance:com.tutorialsninja.tests.ClassB@5b7a5baa]" started-at="2024-02-16T19:40:03 PST" name="methodBOne" finished-at="2024-02-16T19:40:03 PST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodBOne -->
+        <test-method signature="methodBFour()[pri:3, instance:com.tutorialsninja.tests.ClassB@5b7a5baa]" started-at="2024-02-16T19:40:03 PST" name="methodBFour" finished-at="2024-02-16T19:40:03 PST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodBFour -->
+        <test-method signature="methodBThree()[pri:3, instance:com.tutorialsninja.tests.ClassB@5b7a5baa]" started-at="2024-02-16T19:40:03 PST" name="methodBThree" finished-at="2024-02-16T19:40:03 PST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodBThree -->
+      </class> <!-- com.tutorialsninja.tests.ClassB -->
+      <class name="com.tutorialsninja.tests.ClassA">
+        <test-method signature="methodAOne()[pri:1, instance:com.tutorialsninja.tests.ClassA@6b2ea799]" started-at="2024-02-16T19:40:03 PST" name="methodAOne" finished-at="2024-02-16T19:40:03 PST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodAOne -->
+      </class> <!-- com.tutorialsninja.tests.ClassA -->
+      <class name="com.tutorialsninja.tests.APIRestAssuredTesting">
+        <test-method signature="getUsersInPageTwo()[pri:0, instance:com.tutorialsninja.tests.APIRestAssuredTesting@3eb738bb]" started-at="2024-02-16T19:41:13 PST" name="getUsersInPageTwo" finished-at="2024-02-16T19:41:16 PST" duration-ms="3200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersInPageTwo -->
+      </class> <!-- com.tutorialsninja.tests.APIRestAssuredTesting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

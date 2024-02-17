@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test thread-count="5" name="LoginTest">
+  <groups>
+    <define name="dailybuild">
+    	<include name="smoke"/>
+    	<include name="sanity"/>
+    </define>
+    <run>
+  		<include name="dailybuild"/>
+ 	</run>
+  </groups>
+    <classes>
+      <class name="metagroups.Login"/>     
+    </classes>
+  </test> 
+  <test thread-count="5" name="RegisterTest">
+    <groups>
+  		<run>
+  		  <include name="smoke"/>
+  		  <include name="Register"/>
+  		</run>
+  </groups>
+    <classes>           
+      <class name="metagroups.Register"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="SearchTest">
+
+    <classes>     
+      <class name="metagroups.Search"/>      
+    </classes>
+  </test>
+</suite> 
